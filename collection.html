@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+
+          <style>
+                    * {
+                              margin: 0;
+                              padding: 0;
+                              box-sizing: border-box;
+                    }
+
+                    body {
+                              margin: 0;
+                              padding: 0;
+                              font-variant: small-caps;
+                              color: #fff;
+                    }
+
+                    header {
+                              background-color: #333;
+                              background: url(homebanner-newimg2.jpg);
+                    }
+
+                    .navbar {
+                              padding: 1%;
+                              display: flex;
+                    }
+
+                    .header-icon {
+                              padding: 1%;
+                              flex-basis: 30%;
+                              float: left;
+                    }
+
+                    .nav {
+                              margin: auto;
+                              flex-basis: 50%;
+                    }
+
+                    .nav>ul {
+                              list-style-type: none;
+                              display: flex;
+                              margin: 4%;
+                    }
+
+                    .nav>ul>li {
+                              margin: auto;
+                    }
+
+                    .nav>ul>li>a {
+                              color: #fff;
+                    }
+
+                    .main-collection {
+                              margin: 1%;
+                              color: #000;
+                    }
+
+                    .collection-col {
+                              margin: 1%;
+                              display: flex;
+                              justify-content: space-evenly;
+                    }
+
+                    .car-image {
+                              overflow: hidden;
+                    }
+
+                    .car-image img {
+                              transition: transform 0.5s ease;
+                    }
+
+                    .car:hover .car-image img {
+                              transform: scale(1.2);
+                    }
+
+                    .car {
+                              border-radius: 1rem;
+                              background-color: #999;
+                              margin: 1%;
+                              padding: 1%;
+                    }
+
+                    .collection-image {
+                              width: 400px;
+                              height: auto;
+                              border-radius: 0.51rem;
+                              border: 1px solid black;
+                    }
+
+                    .car-description {
+                              border: 1px solid black;
+                              border-radius: 0.51rem;
+                              color: #fff;
+                              font-size: larger;
+                              margin: 5% 0;
+                              padding: 5%;
+                              text-align: center;
+                    }
+
+                    .car-price-and-emi {
+                              border: 1px solid black;
+                              border-radius: 0.51rem;
+                              color: #fff;
+                              line-height: 20px;
+                              padding: 5px 3%;
+                    }
+          </style>
+</head>
+
+<body>
+          <header>
+                    <nav class="navbar">
+                              <div class="header-icon">
+                                        <img src="" alt="BBT LOGO" class="logo">
+                              </div>
+                              <div class="nav">
+                                        <ul>
+                                                  <li> contact 1 </li> |
+                                                  <li> contact 2 </li> |
+                                                  <li><a href="index.html"> GO TO HOME </a></li>
+                                        </ul>
+                              </div>
+                    </nav>
+          </header>
+
+          <main>
+                    <div class="main-collection">
+                              <div class="collection-col">
+                                        <div class="car">
+                                                  <div class="car-image">
+                                                            <a href="1_RR-1.html" class="car-link">
+                                                                      <img src="collection car images/2011 RR GHOST-1.jpeg"
+                                                                                alt="" class="collection-image">
+                                                            </a>
+                                                  </div>
+                                                  <div class="car-description">2011 RR GHOST-1</div>
+
+                                                  <div class="car-price-and-emi">Price : 1,99,00,000 <br>
+                                                            EMI Starts : 3,38,000</div>
+                                        </div>
+
+                                        <div class="car">
+                                                  <div class="car-image">
+                                                            <a href="2_bentley.html" class="car-link">
+                                                                      <img src="collection car images/2014 BENTLEY FLYING SPUR COUPE.jpeg"
+                                                                                alt="" class="collection-image">
+                                                            </a>
+                                                  </div>
+                                                  <div class="car-description">2014 BENTLEY FLYING SPUR COUPE</div>
+
+                                                  <div class="car-price-and-emi">Price : 1,19,00,000 <br>
+                                                            EMI Starts : 2,02,000</div>
+                                        </div>
+
+                                        <div class="car">
+                                                  <div class="car-image">
+                                                            <a href="3_mb.html" class="car-link">
+                                                                      <img src="collection car images/2015 MB G63.jpg"
+                                                                                alt="" class="collection-image">
+                                                            </a>
+                                                  </div>
+                                                  <div class="car-description">2015 MERCEDES-BENZ G-CLASS G63</div>
+
+                                                  <div class="car-price-and-emi">Price : 1,45,00,000 <br>
+                                                            EMI Starts : 2,02,000</div>
+
+                                        </div>
+                              </div>
+
+                              <div class="collection-col">
+                                        <div class="car">
+                                                  <div class="car-image">
+                                                            <a href="4_RR-2.html" class="car-link">
+                                                                      <img src="collection car images/2015 RR GHOST-2.jpeg"
+                                                                                alt="" class="collection-image">
+                                                            </a>
+                                                  </div>
+                                                  <div class="car-description">2015 ROLLS ROYCE GHOST SERIES-2</div>
+
+                                                  <div class="car-price-and-emi">Price : 3,65,00,000 <br>
+                                                            EMI Starts :6,20,000</div>
+                                        </div>
+
+                                        <div class="car">
+                                                  <div class="car-image">
+                                                            <a href="5_MUSTANG-GT.html" class="car-link">
+                                                                      <img src="collection car images/2016 MUSTANG GT.jpg"
+                                                                                alt="" class="collection-image">
+                                                            </a>
+                                                  </div>
+                                                  <div class="car-description">2016 MUSTANG GT</div>
+
+                                                  <div class="car-price-and-emi">Price : 65,00,000 <br>
+                                                            EMI Starts : 1,10,000</div>
+
+                                        </div>
+
+                                        <div class="car">
+                                                  <div class="car-image">
+                                                            <a href="6_AUDI-R8.html" class="car-link">
+                                                                      <img src="collection car images/2016 R8 V10+.jpg"
+                                                                                alt="" class="collection-image">
+                                                            </a>
+                                                  </div>
+                                                  <div class="car-description">2016 AUDI R8 V10+</div>
+
+                                                  <div class="car-price-and-emi">Price : 1,59,00,000 <br>
+                                                            EMI Starts : 2,70,000</div>
+
+                                        </div>
+                              </div>
+
+                              <div class="collection-col">
+                                        <div class="car">
+                                                  <div class="car-image">
+                                                            <a href="7_MB-s63.html" class="car-link">
+                                                                      <img src="collection car images/2016 S63.jpeg"
+                                                                                alt="" class="collection-image">
+                                                            </a>
+                                                  </div>
+                                                  <div class="car-description">2016 MERCEDES-BENZ S63</div>
+
+                                                  <div class="car-price-and-emi">Price : 99,00,000 <br>
+                                                            EMI Starts : 1,68,000</div>
+                                        </div>
+
+                                        <div class="car">
+                                                  <div class="car-image">
+                                                            <a href="8_XC90.html" class="car-link">
+                                                                      <img src="collection car images/2016 VOLVO XC90.jpg"
+                                                                                alt="" class="collection-image">
+                                                            </a>
+                                                  </div>
+                                                  <div class="car-description">2016 VOLVO XC90 D5 MOMENTUM</div>
+
+                                                  <div class="car-price-and-emi">Price : 49,00,000 <br>
+                                                            EMI Starts : 83.200</div>
+
+                                        </div>
+
+                                        <div class="car">
+                                                  <div class="car-image">
+                                                            <a href="9_M4.html" class="car-link">
+                                                                      <img src="collection car images/2017 M4 COUPE.jpeg"
+                                                                                alt="" class="collection-image">
+                                                            </a>
+                                                  </div>
+                                                  <div class="car-description">2017 BMW M4 </div>
+
+                                                  <div class="car-price-and-emi">Price : 75,00,000 <br>
+                                                            EMI Starts : 1,27,000</div>
+
+                                        </div>
+                              </div>
+
+                              <div class="collection-col">
+                                        <div class="car">
+                                                  <div class="car-image">
+                                                            <a href="10_GLS-GRAND-EDITION.html" class="car-link">
+                                                                      <img src="collection car images/2018 GLS 350D.jpg"
+                                                                                alt="" class="collection-image">
+                                                            </a>
+                                                  </div>
+                                                  <div class="car-description">2018 MERCEDES GLS 350D GRAND EDITION
+                                                  </div>
+
+                                                  <div class="car-price-and-emi">Price : 56,00,000 <br>
+                                                            EMI Starts : 95,000</div>
+                                        </div>
+
+                                        <div class="car">
+                                                  <div class="car-image">
+                                                            <a href="11_LR-DISCOVERY.html" class="car-link">
+                                                                      <img src="collection car images/2018 LR DICOVERY.jpg"
+                                                                                alt="" class="collection-image">
+                                                            </a>
+                                                  </div>
+                                                  <div class="car-description">2018 LAND ROVER DICOVERY SPORTS HSE</div>
+
+                                                  <div class="car-price-and-emi">Price : 39,00,000 <br>
+                                                            EMI Starts : 66,200</div>
+
+                                        </div>
+
+                                        <div class="car">
+                                                  <div class="car-image">
+                                                            <a href="12_F-PACE.html" class="car-link">
+                                                                      <img src="collection car images/2019 JAGUAR F-PASE.jpg"
+                                                                                alt="" class="collection-image">
+                                                            </a>
+                                                  </div>
+                                                  <div class="car-description">2019 JAGUAR F-PACE PRESTIGE</div>
+
+                                                  <div class="car-price-and-emi">Price : 53,00,000 <br>
+                                                            EMI Starts : 90,000</div>
+
+                                        </div>
+                              </div>
+
+                              <div class="collection-col">
+                                        <div class="car">
+                                                  <div class="car-image">
+                                                            <a href="13_E-TRON.html" class="car-link">
+                                                                      <img src="collection car images/2021 E-TRON 55 TECH.jpg"
+                                                                                alt="" class="collection-image">
+                                                            </a>
+                                                  </div>
+                                                  <div class="car-description">2021 AUDI E-TRON 55 </div>
+
+                                                  <div class="car-price-and-emi">Price : 89,00,000 <br>
+                                                            EMI Starts : 1,51,000</div>
+                                        </div>
+
+                                        <div class="car">
+                                                  <div class="car-image">
+                                                            <a href="14_S350D.html" class="car-link">
+                                                                      <img src="collection car images/2021 MB S350D.jpg"
+                                                                                alt="" class="collection-image">
+                                                            </a>
+                                                  </div>
+                                                  <div class="car-description">2021 MERCEDES-BENZ S350D</div>
+
+                                                  <div class="car-price-and-emi">Price : 1,39,00,000 <br>
+                                                            EMI Starts : 2,36,000</div>
+                                        </div>
+
+                                        <div class="car">
+                                                  <div class="car-image">
+                                                            <a href="15_GLE-53.html" class="car-link">
+                                                                      <img src="collection car images/2022 AMG GLE 53.jpg"
+                                                                                alt="" class="collection-image">
+                                                            </a>
+                                                  </div>
+                                                  <div class="car-description">2022 MERCEDES AMG GLE 53 COUPE
+                                                  </div>
+
+                                                  <div class="car-price-and-emi">Price : 1,39,00,000 <br>
+                                                            EMI Starts : 2,36,000</div>
+
+                                        </div>
+                              </div>
+
+                              <div class="collection-col">
+                                        <div class="car">
+                                                  <div class="car-image">
+                                                            <a href="16_MC-729S.html" class="car-link">
+                                                                      <img src="collection car images/2022 MCLRN 720S.jpg"
+                                                                                alt="" class="collection-image">
+                                                            </a>
+                                                  </div>
+                                                  <div class="car-description">2022 MCLAREN 720S SPIDER</div>
+
+                                                  <div class="car-price-and-emi">Price : 4,99,00,000 <br>
+                                                            EMI Starts : 8,47 ,000</div>
+                                        </div>
+
+                                        <div class="car">
+                                                  <div class="car-image">
+                                                            <a href="17_XC40.html" class="car-link">
+                                                                      <img src="collection car images/2022 VOLVO XC40.jpg"
+                                                                                alt="" class="collection-image">
+                                                            </a>
+                                                  </div>
+                                                  <div class="car-description">2022 VOLVO XC40 </div>
+
+                                                  <div class="car-price-and-emi">Price : 1,42,50,000 <br>
+                                                            EMI Starts : 73,200</div>
+
+                                        </div>
+
+                                        <div class="car">
+                                                  <div class="car-image">
+                                                            <a href="18_LD-DEFENDER.html" class="car-link">
+                                                                      <img src="collection car images/2023 LR DEFENDER.jpg"
+                                                                                alt="" class="collection-image">
+                                                            </a>
+                                                  </div>
+                                                  <div class="car-description">2023 LAND ROVER DEFENDER</div>
+
+                                                  <div class="car-price-and-emi">Price : 1,19,00,000 <br>
+                                                            EMI Starts : 2,02,000</div>
+
+                                        </div>
+                              </div>
+                    </div>
+          </main>
+</body>
+<script src="jquery-3.7.1.min.js"></script>
+<script>
+          $(document).ready(function () {
+                    $('.car').hover(
+                              function () {
+                                        // Mouse enter
+                                        $(this).find('.car-image img').css('transform', 'scale(1.2)');
+                              },
+                              function () {
+                                        // Mouse leave
+                                        $(this).find('.car-image img').css('transform', 'scale(1)');
+                              }
+                    );
+          });
+</script>
+
+</html>
